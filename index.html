@@ -4,12 +4,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
     <script src="js/main.js"></script>
   </head>
+
   <body>
 
-  	<h2>I am not inside an AngularJS app</h2>
-	<div ng-app="embeddedApp">
-	  <h3>Inside an AngularJS app</h3>
-	</div>
+  <div ng-controller="CalendarController">
+    <table>
+      <tr><th colspan="7">this week {{today}}</th></tr>
+      <tr>
+        <td>Monday</td>
+        <td>Tuesday</td>
+        <td>Wednesday</td>
+        <td>Thursday</td>
+        <td>Friday</td>
+        <td>Saturday</td>
+        <td>Sunday</td>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>Monday</td>
+        <td>Monday</td>
+        <td>Monday</td>
+        <td>Monday</td>
+        <td>Monday</td>
+        <td>Monday</td>
+      </tr>
+    </table>
+  </div>
 
   </body>
 </html>
