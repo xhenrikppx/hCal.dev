@@ -1,0 +1,10 @@
+1. allow google plus signin
+2. allow twitter signin
+3. allow facebook signing
+4. create a simple week display
+5. allow movement between weeks
+6. allow multiple views
+7. database persistency
+8. integrate with gCal
+9. integrate with iCal
+10. moooooore stuff
